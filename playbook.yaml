@@ -7,7 +7,7 @@
     #command: "podman build -t java-maven:latest"
 
   - name: Tag docker/podman image
-    command: "podman tag localhost/java-maven:latest docker.io/amrsioufy/java-maven:latest"
+    command: "podman tag localhost/java-maven:latest docker.io/islamelatfy/java-maven:latest"
 
   - name: Push docker/podman image
-    command: "podman push docker.io/amrsioufy/java-maven:latest"
+    command: "podman push docker.io/islamelatfy/java-maven:latest"
