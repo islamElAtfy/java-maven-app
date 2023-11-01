@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: java-maven
-        image: amrsioufy/java-maven:latest
+        image: islamelatfy/java-maven:latest
         imagePullPolicy: Missing
         ports:
         - containerPort: 8080
